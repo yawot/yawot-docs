@@ -1,0 +1,493 @@
+html, body {
+    height: 100%;
+}
+
+html {
+}
+
+body {
+    background: #e6e8f0 url(images/body-shadow.png) center repeat-y fixed;
+}
+
+body #wrap {
+    background: #fff;
+    width: 960px;
+}
+
+/* Existing image styles */
+
+.image-left {
+    float: left;
+    margin-right: 20px;
+}
+
+.image-left-offgrid {
+    float: left;
+    margin: 0 8px 0 0;
+}
+
+.image-left-only {
+    float: left;
+}
+
+.image-right {
+    float: right;
+    margin-left: 20px;
+}
+
+#logo {
+    padding: 8px 0;
+}
+
+#PartOfLogo {
+    margin: 5px 0;
+}
+
+.navbar-inner {
+    border: none;
+    padding: 0;
+    height: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.navbar-inner .nav li {
+    line-height: 20px;
+    width: 104px;
+    text-align: center;
+    white-space: nowrap;
+    border-right: 1px solid #ccc;
+}
+
+.navbar-inner .nav li a {
+    margin: 0;
+    padding: 0;
+}
+
+#portal-personaltools .dropdown-menu > li > a {
+    font-size: 11px;
+}
+
+.navbar-inner .nav.pull-right li {
+    border-right: 0;
+}
+
+.navbar-inner .nav li a {
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-inner .nav li a {
+    overflow: hidden;
+}
+
+.navbar {
+    margin-bottom: 4px;
+}
+
+#breadcrumbs {
+    font-size: 10px;
+    margin-bottom: 3px;
+}
+
+#footer {
+    font-size: 10px;
+}
+
+#footer #footer-inner .inline {
+    padding: 0;
+    margin: 0;
+}
+
+#footer #footer-inner .inline li {
+    padding-right: 0;
+}
+
+#footer #footer-inner .inline li + li a {
+    border-left: 1px solid #ccc;
+    padding-left: 8px;
+}
+
+/* Sticky footer fix */
+#wrap {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    /* Negative indent footer by it's height */
+    margin: 0 auto -31px;
+}
+
+/* Set the fixed height of the footer here */
+#push,
+#footer {
+    height: 31px;
+    line-height: 30px;
+}
+#footer .container {
+    border-top: 1px solid #ccc;
+}
+
+/* "fluid" inner layout */
+
+#content.span6 .spansplit2 {
+    width: 220px;
+}
+
+#content.span7 .spansplit2 {
+    width: 260px;
+}
+
+#content.span8 .spansplit2 {
+    width: 300px;
+}
+
+#content.span9 .spansplit2 {
+    width: 340px;
+}
+
+#content.span10 .spansplit2 {
+    width: 380px;
+}
+
+#content.span11 .spansplit2 {
+    width: 420px;
+}
+
+#content.span12 .spansplit2 {
+    width: 440px;
+}
+
+/* link colors */
+
+.portlet .portletItem h1 a:link,
+.portlet .portletItem h1 a:visited,
+.portlet .portletItem h2 a:link,
+.portlet .portletItem h2 a:visited,
+.portlet .portletItem h3 a:link,
+.portlet .portletItem h3 a:visited,
+.portlet .portletHeader a:link,
+.portlet .portletHeader a:visited,
+.portlet .portletHeader a:hover,
+.portlet .portletHeader a:focus,
+.portlet .portletFooter a:link,
+.portlet .portletFooter a:visited,
+.portlet .portletFooter a:hover,
+.portlet .portletFooter a:focus,
+#content .listingBar a:link,
+#content .listingBar a:visited,
+#content h2 a:link,
+#content h2 a:visited,
+#breadcrumbs a:link,
+#breadcrumbs a:visited,
+#content .homeTopics h2 a:link,
+#content .homeTopics h2 a:visited,
+#content .documentByLine a:link,
+#content .documentByLine a:visited {
+    color: #c00;
+}
+
+#headings .spansplit2 h2 {
+    margin: 0;
+}
+
+#headings .spansplit2 h2 a {
+    display: block;
+    padding: 8.8px 0;
+}
+
+#headings .row .spansplit2 {
+    border-top: 2px #c00 solid;
+}
+
+.documentFirstHeading {
+    margin-top: 0;
+}
+
+/* sponsor bar */
+
+.portlet-static-sponsors .portletHeader {
+    display: none;
+}
+
+.sponsor-bar {
+    margin: 20px 0;
+    text-align: center;
+}
+
+.sponsor-bar img {
+    margin: 0 10px;
+}
+
+
+/* form element scrollbar confusion fix - force it on */
+
+body {
+    overflow-y: scroll;
+}
+
+#portal-personaltools .dropdown-menu {
+    min-width: 0;
+}
+
+#portal-personaltools {
+    max-width: 140px;
+    white-space: nowrap;
+    line-height: 20px;
+    margin: 0;
+    float: right;
+}
+
+#user-name {
+    max-width: 120px;
+    overflow: hidden;
+    display: block;
+}
+
+#portal-personaltools dd {
+    margin: 0;
+    padding: 0;
+    top: inherit;
+}
+
+#portal-personaltools dd a,
+#portal-personaltools dt a {
+    color: #ccc;
+    padding: 0 10px;
+}
+
+#portal-personaltools .actionMenuHeader,
+#portal-personaltools li {
+    line-height: 20px;
+}
+
+#searchbox form {
+    margin: 0;
+}
+
+#searchbox input {
+    height: 14px;
+    margin: 0;
+}
+
+
+ul.navTree {
+    margin: 0 !important;
+}
+
+.portletHeader {
+    border-top: 1px solid #666666;
+    font-size: 14px;
+    line-height: 25px;
+}
+
+.portletHeader a {
+    text-decoration: none;
+    color: #c00;
+}
+
+.portletCollection .portletHeader a:hover,
+.portlet .navTreeItem a:hover,
+.portlet .portletHeader a.tile:hover,
+.portlet .portletFooter a.tile:hover,
+.portlet .portletItem a.tile:hover {
+    background: #eee;
+}
+
+.navTree .navTreeItem a,
+.portlet .portletHeader a,
+.portlet .portletFooter a.tile,
+.portlet .portletItem a.tile {
+    text-decoration: none;
+    display: block;
+    position: relative;  /* this ensures it really behaves as a block */
+}
+
+.navTree .navTreeItem a,
+.portlet .portletFooter a.tile,
+.portlet .portletItem a.tile {
+    padding: 2px 0;
+}
+
+.portlet .portletHeader a {
+    padding: 4px 0;
+}
+
+.portlet .navTreeItem a,
+.portlet .portletFooter a.tile,
+.portlet .portletItem a.tile {
+    color: #000;
+}
+
+.portlet .portletItem .portletItemDetails {
+    text-align: right;
+}
+
+/* text portlets */
+
+dl.portlet dd.portletItem ul li h3 {
+    font-size: 11px;
+}
+
+dl.portlet dd.portletItem ul li {
+    display: block;
+}
+
+dl.portlet dd.portletItem ul {
+    margin: 0;
+}
+
+input[type="checkbox"] {
+    float: left;
+}
+
+#content label .formHelp {
+    font-weight: normal;
+    display: block;
+}
+
+table.listing {
+    display: block;
+    overflow: auto;
+    max-width: 100%;
+}
+
+/* Portlet management */
+
+.portlets-manager .portletHeader a,
+.portlets-manager form {
+    display: inline;
+}
+
+.portlets-manager .managedPortletActions {
+    display: block;
+    float: right;
+}
+
+.portlets-manager form button {
+    border: 0;
+    padding: 0;
+    color: #c00;
+    background: transparent;
+}
+
+/* live search bootstrap like styles. */
+
+.LSResult {
+    position: absolute;
+    width: 220px;
+    background: #fff;
+    z-index: 10000;
+    display: none;
+    padding: 5px 0 10px;
+    margin: 2px 0 0;
+    list-style: none;
+    background-color: #ffffff;
+    border: 1px solid #ccc;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    -webkit-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -moz-box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+    -webkit-background-clip: padding-box;
+    -moz-background-clip: padding;
+    background-clip: padding-box;
+}
+
+.LSResult:before {
+    position: absolute;
+    top: -7px;
+    left: 9px;
+    display: inline-block;
+    border-right: 7px solid transparent;
+    border-bottom: 7px solid #ccc;
+    border-left: 7px solid transparent;
+    border-bottom-color: rgba(0, 0, 0, 0.2);
+    content: '';
+}
+
+.LSResult:after {
+    position: absolute;
+    top: -6px;
+    left: 10px;
+    display: inline-block;
+    border-right: 6px solid transparent;
+    border-bottom: 6px solid #ffffff;
+    border-left: 6px solid transparent;
+    content: '';
+}
+
+.LSResult fieldset,
+.LSTable {
+    margin: 0;
+    padding: 0;
+}
+
+#livesearchLegend {
+    display: none;
+}
+
+.LSTable li.LSRow img {
+    display: none;
+}
+
+.LSTable li.LSRow {
+    display: block;
+}
+
+.LSTable li.LSRow a span ,
+.LSTable li.LSRow a {
+    display: block;
+    text-decoration: none;
+}
+
+#LSNothingFound,
+.livesearchContainer div.LSRow a,
+.LSTable li.LSRow a {
+    padding: 5px 20px;
+    overflow: hidden;
+    width: 180px;
+}
+
+.LSTable li.LSRow a:hover {
+    background: #eee;
+}
+
+.LSTable li.LSRow a .LSTitle {
+    color: #000;
+}
+
+.LSTable li.LSRow a .LSDescr {
+    margin-left: 10px;
+}
+
+#searchform > .row {
+    margin-left: 0px;
+}
+
+/* PloneSoftwareCenter */
+
+.portaltype-pscrelease a.link-plain img {
+    float: left;
+    display: block;
+    margin-right: 8px;
+}
+
+.portaltype-pscproject a.link-plain img {
+    position: relative;
+    top: 10px;
+}
+
+/* ugggggggggggghhhhhhhhhhhhhhh */
+
+.portaltype-pscrelease #content div[style="margin-top: 1em;"] div {
+    padding-top: 4px;
+    clear: both;
+}
+
+.portaltype-pscproject #content .pane dl dd {
+    position: relative;
+    top: -10px;
+    margin-left: 44px;
+}
